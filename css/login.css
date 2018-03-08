@@ -1,0 +1,68 @@
+/*登录*/
+#loginWrap{width: 300px;height: 600px;margin: 110px auto;}
+#loginWrap #lo_1{width: 100%;height: 147px;}
+#loginWrap #lo_1 span{display:block;width: 100%;font-family: arial; font-size: 16px;color: #b4b4b4;text-align: center;}
+#loginWrap #lo_1 h2{width: 100%; height:24px; font-family: "微软雅黑";font-size:24px;color: #323232;text-align: center; background: url(../images/login/h2bg.jpg) no-repeat 0 2px;}
+#loginWrap #lo_2{width: 100%;}
+#loginWrap #lo_2 .field{position: relative; width: 100%;height: 80px;}
+#loginWrap #lo_2 .field i{position:absolute; top:0; left:0; display: inline-block;width: 38px; height: 38px;}
+#loginWrap #lo_2 .field span{position:absolute; left:42px; display: inline-block;line-height: 40px; font-family: "微软雅黑";font-size: 12px;color: #b4b4b4;;}
+#loginWrap #lo_2 .loName i{background: url(../images/login/login_r2_c3.png) no-repeat;}
+#loginWrap #lo_2 .loPassw i{background: url(../images/login/login_r4_c3.png) no-repeat;}
+#loginWrap #lo_2 .field .loText{width: 298px;height: 38px;line-height:38px;border: 1px solid #323232; text-indent: 40px;}
+#loginWrap #lo_2 p{float:right;font-family: "微软雅黑";font-size: 14px;color: #323232;}
+#loginWrap #lo_3{width: 100%;height: 40px; margin: 50px 0;}
+#loginWrap #lo_3 .lobtn{display:inline-block;width: 140px;height: 40px;background-color: #323232;border:1px solid #323232;color: #FFFFFF;font-family: "微软雅黑";font-size: 18px;margin: 0 2px;}
+#loginWrap #lo_4{width: 100%;}
+#loginWrap #lo_4 span{display:block;text-align:center;width:100%; margin:0 auto;font-family: "微软雅黑";font-size: 14px;color: #b2b2b2;margin-bottom: 40px;}
+#loginWrap #lo_4 ul{width: 100%; overflow: hidden;}
+#loginWrap #lo_4 ul li{float: left;}
+#loginWrap #lo_4 ul li a img{width: 63px; height: 63px;margin-right: 50px;}
+#loginWrap #lo_4 ul li.last a img{margin-right: 0;}
+
+/*忘记密码*/
+#pass{width: 400px;margin: 110px auto;}
+#pass #lo_1{width: 100%;height: 147px;}
+#pass #lo_1 h2{width: 100%; height:24px; font-family: "微软雅黑";font-size:24px;color: #323232;text-align: center;}
+#pass #lo_2 {width: 100%;}
+#pass #lo_2 strong{display:inline-block; width: 90px; height: 30px; font: normal 18px "microsoft yahei";line-height: 30px;text-align: right;}
+#pass #lo_2 .field{position: relative; width: 100%;height: 80px;}
+#pass #lo_2 .field i{position:absolute; right:0; display: inline-block;width: 30px; height: 30px;}
+#pass #lo_2 .loName i{background: url(../images/login/ps-1.png) no-repeat right center;}
+#pass #lo_2 .field span{position:absolute; top: 2px; left:104px; display: inline-block;line-height: 30px; font-family: "微软雅黑";font-size: 12px;color: #b4b4b4; text-indent: 4px;*text-indent: 10px;}
+#pass #lo_2 .field .loText{height: 30px;line-height:30px; border: 1px solid #323232; text-indent: 6px; padding: 0 4px; z-index: 5;}
+#pass #lo_2 .loName .loText{width: 294px;*width: 282px;}
+#pass #lo_2 .loPassw .loText{width: 150px;}
+#pass #lo_2 .loPassw img{position:absolute; top:2px; width: 86px;height: 30px; margin: 0 8px;*position:absolute; top:2px; width: 86px;height: 30px; margin: 0 2px;}
+#pass #lo_2 .loPassw a{position:absolute; top: 6px; display: inline-block; right:0; height: 30px; line-height: 30px; font: normal 14px "微软雅黑"; color: #5F5F5F;}
+#pass #lo_3{width: 100%;height: 30px; margin: 50px 0;}
+#pass #lo_3 .lobtn{float:right;display:inline-block;width: 294px;height: 30px;background-color: #323232;border:1px solid #323232;color: #FFFFFF;font-family: "微软雅黑";font-size: 18px;margin: 0 2px;}
+
+/*注册和登录*/
+#registerWrap{width: 1200px; margin: 0 auto;}
+.register{width:460px; margin: 110px auto;}
+#registerLeft{float: left; margin-left: 40px;}
+#registerRight{float: right; margin-right: 140px;}
+#registerWrap #lo_1{width: 100%;height: 147px;}
+#registerWrap #lo_1 span{float:right;width: 300px;display:block;font-family: arial; font-size: 16px;color: #b4b4b4;text-align: center;}
+#registerWrap #lo_1 h2{float:right;width: 300px; height:24px; font-family: "微软雅黑";font-size:24px;color: #323232;text-align: center; background: url(../images/login/h2bg.jpg) no-repeat 0 4px;}
+#registerWrap #lo_2 strong{display:inline-block; width: 150px; height: 30px; font: normal 18px "microsoft yahei";line-height: 30px;text-align: right;}
+#registerWrap #lo_2 .field{position: relative; width: 100%;height: 80px;}
+#registerWrap #lo_2 .field i{position:absolute; right:0; display: inline-block;width: 30px; height: 30px;}
+#registerWrap #lo_2 .nameBg i{background: url(../images/login/ps-1.png) no-repeat right center;}
+#registerWrap #lo_2 .passBg i{background: url(../images/login/passBg.png) no-repeat right center;}
+#registerWrap #lo_2 .field span{position:absolute; top: 2px; left:156px; display: inline-block;line-height: 30px; font-family: "微软雅黑";font-size: 12px;color: #b4b4b4; text-indent: 4px;*text-indent: 10px;}
+#registerWrap #lo_2 .field .loText{height: 30px;line-height:30px; border: 1px solid #323232; text-indent: 6px; padding: 0 4px; z-index: 5;}
+#registerWrap #lo_2 .loName .loText{width: 294px;*width: 282px;}
+#registerWrap #lo_2 .loPassw .loText{width: 150px;}
+#registerWrap #lo_2 p{float:right;font-family: "微软雅黑";font-size: 14px;color: #323232;}
+#registerWrap #lo_2 .loPassw img{position:absolute; top:2px; width: 86px;height: 30px; margin: 0 8px;*position:absolute; top:2px; width: 86px;height: 30px; margin: 0 2px;}
+#registerWrap #lo_2 .loPassw a{position:absolute; top: 6px; display: inline-block; right:0; height: 30px; line-height: 30px; font: normal 14px "微软雅黑"; color: #5F5F5F;}
+#registerWrap #lo_3{ width: 100%;height: 30px; margin: 50px auto;}
+#registerWrap #lo_3 .lobtn{float:right; width: 294px;display:inline-block;height: 30px;background-color: #323232;border:1px solid #323232;color: #FFFFFF;font-family: "微软雅黑";font-size: 18px;margin: 0 2px;}
+#registerWrap #lo_4{width: 100%;}
+#registerWrap #lo_4 span{float:right;display:block;text-align:center;width:300px; margin:0 auto;font-family: "微软雅黑";font-size: 14px;color: #b2b2b2;margin-bottom: 40px;}
+#registerWrap #lo_4 ul{float: right; width: 300px; overflow: hidden;}
+#registerWrap #lo_4 ul li{float: left;}
+#registerWrap #lo_4 ul li a img{width: 63px; height: 63px;margin-right: 50px;}
+#registerWrap #lo_4 ul li.last a img{margin-right: 0;}

@@ -1,0 +1,53 @@
+/*确认结算*/
+#acc {width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+#acc .pb-1{width: 1200px; height: 40px; background-color: #5f5f5f; margin: 30px auto;}
+#acc .pb-1 p{width: 100%; height: 40px; line-height: 40px; font-size: 20px; color: #FFFFFF; text-indent: 30px;}
+
+.acc-1{margin-bottom: 40px;}
+.deWrap{width: 100%; margin: 0 auto;}
+.de_3 .field{width: 100%;height: 50px;}
+.de_3 .field strong{display: inline-block; font-size: 16px; color: #808080; width: 130px; text-align: right;}
+.de_3 .field strong em{color: red; margin-right: 6px;}
+.de_3 .field .loText{width: 178px;height: 24px;line-height:2px;border: 1px solid #808080; text-indent: 4px;}
+.de_3 .field .loSele{height: 28px;line-height:24px;}
+.de_3 .field .loW{width: 500px;}
+
+.acc-2{width: 100%; color: #808080; margin-bottom: 80px;}
+.acc-2 .acc-t{width: 100%;}
+.acc-2 .acc-t dl{float: left; margin-right: 120px; margin-left: 40px;}
+.acc-2 .acc-t dl dt{font-size: 14px;  height: 40px;}
+.acc-2 .acc-t dl dd{height: 40px; display: table-row; vertical-align: middle;}
+.acc-2 .acc-t dl dd .rad{ width: 16px; height: 16px; margin-right: 14px; margin-top: 2px;}
+.acc-2 .acc-t dl dd label{font-size: 16px; vertical-align: top; color: #808080;}
+.acc-2 .acc-t dl dd span{font-size: 12px; margin-left: 20px; color: #808080;}
+
+.acc-3{width: 100%; color: #808080; margin-bottom: 80px;}
+
+#acc .acc-s{}
+#acc .acc-s .accst{width: 1150px; height: 160px; border-bottom: 1px solid #5f5f5f; margin: 0 auto 30px;} 
+#acc .acc-s .accst ul{width: 100%;}
+#acc .acc-s .accst ul li{float: left;}
+#acc .acc-s .accst ul .accli1{width: 98px; height: 160px; padding-right: 24px;}
+#acc .acc-s .accst ul .accli1 img{width: 98px; height: 90px;}
+#acc .acc-s .accst ul .accli2{width: 1022px; height: 16px; margin: 30px 0 20px;}
+#acc .acc-s .accst ul .accli2 h3,
+#acc .acc-s .accst ul .accli2 p{display: inline-block; color: #323232;}
+#acc .acc-s .accst ul .accli2 h3{float:left; font-size: 16px; margin-right: 400px;}
+#acc .acc-s .accst ul .accli2 p{float: left;}
+#acc .acc-s .accst ul .accli2 .result{float: right;}
+#acc .acc-s .accst ul .accli2 p span,#acc .acc-s .accst ul .accli2 p em{color: #ed5561;}
+#acc .acc-s .accst ul .accli3{width: 1022px; height: 114px;}
+#acc .acc-s .accst ul .accli3 h4{float: left; display: inline-block; width: 70px;}
+#acc .acc-s .accst ul .accli3 .arWr{float: left; position: relative; display: inline-block; width: 952px;}
+#acc .acc-s .accst ul .accli3 .arWr b,#acc .acc-s .accst ul .accli3 .arWr .area{position: absolute; left: 0; top: 0; text-indent: 10px;}
+#acc .acc-s .accst ul .accli3 .arWr b{z-index: 5; font: normal 12px "微软雅黑"; color: #c7c7c7;}
+#acc .acc-s .accst ul .accli3 .arWr .area{width: 952px; height: 76px; background-color: #e6e6e6; border: none; overflow: hidden;}
+
+.lo_3{width: 100%;}
+.btnW{float: right;}
+.lo_3 .btnW span{display: inline-block; font-size: 18px; color: #323232;}
+.lo_3 .btnW span em,.lo_3 .btnW span i{font-size: 30px;font-style: normal;}
+.lo_3 button{display: inline-block; margin: 0 60px 0 30px; font-family: "微软雅黑"; width: 68px; height: 34px; font-size: 18px; color: #FFFFFF; text-align: center; line-height: 34px; background-color: #ed5561; border: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+
+.lo_4{width: 100%;}
+.lo_4 .sibbtn{display: block; margin: 120px auto; width: 244px; height: 94px; font-family: "微软雅黑"; font-size: 36.8px; color: #FFFFFF; text-align: center; line-height: 34px; background-color: #ed5561; border: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}

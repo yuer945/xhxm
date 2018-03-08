@@ -1,0 +1,37 @@
+#shoppingC{width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+#shoppingC .pb-1{width: 1200px; height: 40px; background-color: #5f5f5f; margin: 30px auto;}
+#shoppingC .pb-1 p{width: 100%; height: 40px; line-height: 40px; font-size: 20px; color: #FFFFFF; text-indent: 30px;}
+
+#shoppingC .re-2{width: 1140px; margin: 0 auto 110px;}
+#shoppingC .re-2 .tabWr,#refund .re-2 .tabWr table{width: 1140px; margin: 0 auto;}
+#shoppingC .re-2 .tabWr table thead{width: 100%; height: 60px; border-bottom:1px solid #5f5f5f;}
+#shoppingC .re-2 .tabWr table thead th{text-align: center; line-height: 30px;}
+#shoppingC .re-2 .tabWr table thead th .checkAllT{vertical-align:middle; margin-left: 34px;}
+#shoppingC .re-2 .tabWr table thead th span{color: #323232; font-size: 14px;}
+#shoppingC .re-2 .tabWr table tbody tr{height: 130px; border-bottom: 1px solid #5f5f5f;}
+#shoppingC .re-2 .tabWr table tbody tr td{text-align: center;}
+#shoppingC .re-2 .tabWr table tbody tr td .tdBtn{width: 100px; height: 20px; color: #FFFFFF; background-color: #323232; border: 1px solid #323232; text-align: center; line-height: 20px; font-size: 12px;}
+#shoppingC .re-2 table tbody tr td span,#shoppingC .re-2 table tbody tr td a{color: #323232; font-size: 14px;}
+#shoppingC .re-2 table tbody tr td a:hover{color: #000000;}
+#shoppingC .re-2 .tabWr table tbody tr td .name{width: 100%;}
+#shoppingC .re-2 table tbody .name img{float: left; width: 60; height: 86px; margin-right: 18px;}
+#shoppingC .re-2 table tbody .name p{float: left; height: 66px; width: 300px; padding-top: 20px; text-align: left;}
+#shoppingC .re-2 .tabWr table tbody tr td .numWrap{width: 96px; margin: 0 auto;}
+#shoppingC .re-2 .tabWr table tbody tr td .subtract,#shoppingC .re-2 .tabWr table tbody tr td .add{float: left; display:inline-block; width: 22px; height: 26px; text-align: center; border: 1px solid #e5e5e5; line-height: 26px; margin: 0; padding: 0; cursor: pointer;font-weight: bold;}
+#shoppingC .re-2 .tabWr table tbody tr td .subtract:hover,#shoppingC .re-2 .tabWr table tbody tr td .add:hover{background-color: #e5e5e5;}
+#shoppingC .re-2 .tabWr table tbody tr td .num{float:left; width: 48px; height: 26px; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; border-left: none; border-right: none; margin: 0; padding: 0; line-height: 26px; text-align: center;}
+#shoppingC .re-2 table tbody .exchange:hover{color: #1e2eff;}
+#shoppingC .checkAllB{margin-left: 35px;} 
+
+
+#shoppingC .btnG{width: 1200px; margin: 20px auto; padding-right:32px;}
+#shoppingC .btnG ul{float: right; height: 58px; margin: 30px 50px 60px 0;}
+#shoppingC .btnG ul li{float: left; height: 58px; margin-right: 50px;}
+#shoppingC .btnG ul li span,#shoppingC .btnG ul li em{font-size: 18px; color: #323232; height: 58px; line-height: 58px; display: table-cell; vertical-align: middle;}
+#shoppingC .btnG ul li .result{font-size: 30px;}
+#shoppingC .btnG ul li .accounts{font-family: "微软雅黑"; font-size: 24px; text-align: center; width: 150px; height: 58px; line-height: 58px; color: #FFFFFF; background-color: #ed5561; border:none;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
+
+#shoppingC .sh-3{margin-left: 70px;}
+#shoppingC .sh-3 h3{font-size: 30px; color: #323232;}
+#shoppingC .sh-3 p{font-size: 20px; color: #323232; line-height: 50px;}
+

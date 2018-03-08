@@ -1,0 +1,97 @@
+/*沟通服务*/
+#communication{width: 1200px; margin: 30px auto; font-family: "microsoft yahei";}
+#communication .com-tit{width: 100%; margin-top: 110px;}
+#communication .com-tit span,
+#communication .com-tit h2,
+#communication .com-tit p{display: block; width: 100%; text-align: center;}
+#communication .com-tit span{font-size: 24px; color: #808080;}
+#communication .com-tit h2{font-size: 36px; color: #323232;}
+#communication .com-tit p{margin: 40px 0 94px; font-size: 18px; color: #808080;}
+
+#communication .com-1{width: 100%;}
+#communication .com-1 .com-ct{width: 100%;}
+#communication .com-1 .com-ct ul{width: 730px; margin: 0 auto;}
+#communication .com-1 .com-ct ul li{width: 100%; font-size: 18px; color: #808080;}
+#communication .com-1 .com-ct ul li p{float: left;}
+#communication .com-1 .com-ct ul li span{float: right;}
+
+.com-2{width: 1200px; margin: 0 auto;}
+.com-2 .com-ct{width: 100%;}
+.com-2 .com-ct ul{width: 100%;}
+.com-2 .com-ct ul li{position: relative; width: 100%; height: 299px; overflow: hidden; margin-bottom: 40px;}
+.com-2 .com-ct ul li .imgW{float: left; width: 299px; height: 299px; margin: 0 80px 40px 0;}
+.com-2 .com-ct ul li .imgW img{width: 100%; height: 100%;}
+.com-2 .com-ct ul li .pW{float: left; height: 299px; width: 420px; margin-right: 80px;}
+.com-2 .com-ct ul li .pW .price{display: block; font:bold 30px impact; color: #ed5561; margin: 30px 0 20px;}
+.com-2 .com-ct ul li .pW .price em{font-weight: bold; font-size: 18px;}
+.com-2 .com-ct ul li .pW h3{font-size: 24px; color: #646464;}
+.com-2 .com-ct ul li .pW p{font-size: 14px; color: #646464;}
+.com-2 .com-ct ul li .pW .comCn{margin-top: 10px;}
+.com-2 .com-ct ul li .pW .comCn dl{height: 30px; line-height: 30px;}
+.com-2 .com-ct ul li .pW .comCn dl dt{float: left; font-size: 14px; color: #282828;}
+.com-2 .com-ct ul li .pW .comCn dl dd{float:left; font-size: 14px; color: #646464;}
+.com-2 .com-ct ul li .pW .comCn dd span{display: inline-block; padding:0 6px;  height: 20px; line-height: 20px;  border:1px solid #313131;}
+.com-2 .com-ct ul li .pW .comCn dd .imgWr{float:left; height: 22px;margin-top: 4px; }
+.com-2 .com-ct ul li .pW .comCn dd .imgWr img{ width: 20px; height: 20px; border: 1px solid #313131; margin-right: 4px;}
+.com-2 .com-ct ul li .pW .comCn dd em{float: left; display: inline-block; font-size: 14px; color: #b4b4b4; }
+.com-2 .com-ct ul li .pW .comCn .adr dt,.com-2 .com-ct ul li .pW .comCn .adr dd{font-size: 18px;}
+.com-2 .com-ct ul li .sW{float: right; position: absolute; right: 0; bottom: 0;}
+.com-2 .com-ct ul li .sW dl{ height: 30px; line-height: 30px;}
+.com-2 .com-ct ul li .sW dl dt{float: left;}
+.com-2 .com-ct ul li .sW dl dd{float: left;}
+
+#communication .com-3 .com-c{width: 100%;}
+#communication .com-3 .com-c ul{width: 100%;}
+#communication .com-3 .com-c ul li{float: left; position: relative; width: 388px; height: 458px; border: 1px solid #d6d7dc; margin-right: 15px;}
+#communication .com-3 .com-c ul li.liLast{margin-right: 0;}
+#communication .com-3 .com-c ul li img{width: 100%; height: 100%;}
+#communication .com-3 .com-c ul li .pBg,#communication .com-3 .com-c ul li p{position: absolute; left: 0; bottom: 0; width: 100%; height: 60px; text-align: center;}
+#communication .com-3 .com-c ul li .pBg{background-color: #000000; opacity:0.5; filter: alpha(opacity=50);}
+#communication .com-3 .com-c ul li p{line-height: 60px; font-size: 18px; color: #FFFFFF;}
+
+/*沟通服务-我的订单*/
+#orderform{width: 100%; font-family: "microsoft yahei"; margin-bottom: 200px;}
+#orderform .ban{width: 100%; height: auto; margin-bottom: 110px;}
+#orderform .or-1{position: relative; width: 1200px; margin: 0 auto 50px; height: 60px;}
+#orderform .or-1 .comPBg,#orderform .or-1 p{position: absolute; width: 100%; height: 60px;}
+#orderform .or-1 .comPBg{position: absolute;  background-color: #000000; opacity: 0.4; filter: alpha(opacity=40);}
+#orderform .or-1 p{line-height: 60px; color: #FFFFFF; font-size: 20px; text-indent: 30px;}
+
+/*沟通服务-如何选花*/
+#select{width: 1200px; margin: 30px auto; font-family: "microsoft yahei";}
+#select .com-tit{width: 100%; margin-top: 110px;}
+#select .com-tit span,
+#select .com-tit h2,
+#select .com-tit em,
+#select .com-tit p{display: block; width: 100%; text-align: center;}
+#select .com-tit span{font-size: 24px; color: #808080;}
+#select .com-tit h2{font-size: 36px; color: #323232; height: 77px; line-height: 77px; background: url(../images/communication/h2bg.png) no-repeat;}
+#select .com-tit p{margin-top: 30px; font-size: 18px; color: #808080;}
+#select .com-tit em{font-size: 16px; color: #ed5561; line-height: 28px;}
+
+#select .com-ct{width: 1200px;}
+#select ul{width: 100%;}
+#select ul li{float: left;}
+#select .com-1 .com-ct,#select .com-2 .com-img,#select .com-3 .com-c{margin-top: 80px;}
+#select .com-1 .com-ct ul li{width: 356px; height: 495px; margin-right: 66px;}
+#select .com-1 .com-ct ul li img{width: 100%; height: 100%;}
+#select .com-1 .com-ct ul li.liLast{margin-right: 0;}
+
+#select .com-2 .com-img ul li{float: left; width: 258px; height: 275px; margin-right: 55px;}
+#select .com-2 .com-img ul li{}
+#select .com-2 .com-img ul li.liLast{margin-right: 0;}
+
+#select .com-3 .com-c{width: 1200px; background-color: #e8e6e6; overflow: hidden;}
+#select .com-3 .com-c ul{height: 486px;}
+#select .com-3 .com-c ul .li1,#select .com-3 .com-c ul .li3{width: 243px; height: 486px;}
+#select .com-3 .com-c ul .li1 div,#select .com-3 .com-c ul .li3 div{width: 243px; height: 243px; overflow: hidden;}
+#select .com-3 .com-c ul .li1 img,#select .com-3 .com-c ul .li3 img{width: 243px; height: 243px; }
+#select .com-3 .com-c ul .li1{float: left; margin-left: 86px;}
+#select .com-3 .com-c ul .li2{float: left; margin-left: 100px; margin-top: 84px; width: 348px;}
+#select .com-3 .com-c ul .li2 div{float: left; width: 174px;}
+#select .com-3 .com-c ul .li2 span{display: block; width: 174px; height: 78px; text-align: center; line-height: 78px; font-size: 24px; color: #b4aeae; border-bottom: 1px solid #e8e6e6; border-right: 1px solid #e8e6e6;}
+#select .com-3 .com-c ul .li2 .color1{background-color: #b84444;}
+#select .com-3 .com-c ul .li2 .color2{background-color: #fcb7cc;}
+#select .com-3 .com-c ul .li2 .color3{background-color: #ffffff;}
+#select .com-3 .com-c ul .li2 .color4{background-color: #fcc433;}
+#select .com-3 .com-c ul .li3{float: right; margin-right: 86px;}

@@ -1,0 +1,75 @@
+
+#header {width: 100%;height: 40px;background-color: #4a4a4a;font-family: "微软雅黑";font-size: 14px;color: #f5f5f5;}
+#loginbarWrap {width: 1200px;margin: 0 auto;height: 40px;line-height: 40px;}
+#welcome {float: left;}
+#login {float: right;}
+#login li {float: left;margin-left: 40px;}
+#login li a {color: #FFFFFF;}
+#login li span {padding: 0 10px;}
+#shoppingCart {background: url(../images/public/headspcart.png) no-repeat 0;padding: 0 30px;}
+#phone {padding: 0 30px;background: url(../images/public/headPhone.png) no-repeat 0;}
+
+#idx-banner{position:relative;overflow:hidden;width:100%;height:595px;background-color:#ccc;}
+#idx-banner .content{overflow:hidden;width:100%;height:100%;}
+#idx-banner .content ul{width:100%;}
+#idx-banner .content ul li{width:100%;height:595px;background:url(/images/public/loading.gif) no-repeat center center;}
+#idx-banner .content ul li a,
+#idx-banner .content ul li div {overflow:hidden;display:block;width:100%;height:100%;text-indent:-9999px;background:no-repeat center 0;}
+
+#idx-banner .tag{position:absolute;left:0;bottom:0;width:100%;font-size:0;letter-spacing:-8px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7F08355C', endColorstr='#7F08355C');}
+:root #idx-banner .tag{filter:none;background-color:rgba(0,0,0,0.5);}
+#idx-banner .tag ul{*zoom:1;width:730px;margin:0 auto;opacity:1;filter:alpha(opacity=100);}
+#idx-banner .tag li{display:inline-block;*zoom:1;*display:inline;width:178px;height:40px;margin-left:1px;font-size:14px;line-height:40px;font-family:Verdana;letter-spacing:normal;text-align:center;color:#fff;background-color:#aa4957;cursor:pointer;}
+#idx-banner .tag li.sele{color:#fff;background-color:#ed5561;}
+@media screen and (max-width: 1024px) {
+    #idx-banner .btn{display:none;}
+}
+
+#navWrap {width: 100%;height: 154px;border-bottom: 3px solid #5f5f5f; margin-bottom: 6px;}
+#mainNav {width: 1200px;height: 152px; margin: 0 auto;}
+#mainNavLeft {float: left;}
+#mainNavRight {float: right;height: 152px;}
+#mainNavRight li {float: left;position: relative; width: 116px;height: 50px;margin-top: 46px;text-align: center;  border-left: 1px solid #b4b4b4;}
+#mainNavRight li a {position: absolute; left: 0; bottom: -5px; text-decoration: none; width: 116px;height: 55px; display: block;}
+#mainNavRight li p {display: block; text-align: center; font-family: "微软雅黑";font-size: 16px;color: #323232;line-height: 24px;margin-top: 4px; text-align: center;}
+#mainNavRight li span {display: block; font-family: arial;font-size: 10px;color: #b4b4b4;line-height: 18px;}
+#mainNavRight li.liAction p{color: #FFFFFF;}
+#mainNavRight li.liAction span{color: #e5e5e5;}
+#mainNavRight li.liAction a{ background: url(../images/public/headBg.png) no-repeat;}
+#mainNavRight li.last{border-right: 1px solid #b4b4b4;}
+#mainNavRight li.liAction,#mainNavRight li.liActionN{border: none;}
+
+#goTop {width: 100%;height: 136px;}
+#goTop img {width: 100%;height: auto;}
+
+#footerWrap {width: 100%;height: 300px;background-color: #4A4A4A;}
+#footer {position: relative;width: 1200px;height: 100%;margin: 0 auto;}
+#footerLeft {position: absolute;left: 0;margin-top: 60px;}
+#footerLeft dl {float: left;width: 84px;padding-right: 40px;}
+#footerLeft dt {font-family: "微软雅黑";font-size: 20px;color: #f5f5f5;line-height: 32px;}
+#footerLeft dd {font-family: "微软雅黑";font-size: 14px;line-height: 32px;}
+#footerLeft a {color: #c2c2c2;}
+#Wechat {position: absolute;right: 0;width: 280px;height: 160px;margin-top: 60px;font-family: "微软雅黑";font-weight: bold;color: #F5F5F5;}
+#Wechat p {position: absolute;top: 0;left: 0;}
+#Wechat div {position: absolute;bottom: 2px;left: 0;}
+#Wechat h3 {font-size: 26px;font-weight: bold;}
+#Wechat h3 em {font-weight: bold;}
+#Wechat img {position: absolute;right: 0;bottom: 0;}
+#copyright {position: absolute;bottom: 10px;width: 1200px;}
+#copyright {width: 100%;font-family: "微软雅黑";font-size: 14px;color: #999999;text-align: center;}/*底部结束*/
+
+#scrollBanner{position: absolute; right: 0; top: 800px; width: 85px; height: 304px; z-index: 9999; overflow: hidden;}
+#scrollBanner .slide_min{position: absolute; right: 0; width:26px; height:85px; background:url(../images/public/bgK.png) no-repeat; cursor:pointer;}
+#scrollBanner .scrollTopImg{width: 100%; height: 63px;}
+#scrollBanner .scrollWrap{width: 100%; margin-top: -3px;+margin-top: -4px;}
+#scrollBanner .scrollWrap .scrollNav{width: 100%;}
+#scrollBanner .scrollWrap .scrollNav li{width: 100%; height: 26px; margin: 0 auto 6px; background: url(../images/public/bgC.png) no-repeat;}
+#scrollBanner .scrollWrap .scrollNav li a{display: block; width: 100%; height: 100%; line-height: 26px; font-size: 12px; text-align: center; color: #eb439b; text-decoration: none; cursor: pointer;}
+#scrollBanner .scrollWrap .scrollNav li.Top{background: url(../images/public/Top.png) no-repeat; margin-bottom: 0;}
+
+#scrollBanner .scrollImg{width: 100%; height: 34px; margin-top: 20px;}
+#scrollBanner .scrollImg ul{width: 100%; height: 34px;}
+#scrollBanner .scrollImg ul li{float: left; width: 34px; height: 34px; }
+#scrollBanner .scrollImg ul li a{display: block; height: 100%; height: 100%;}
+#scrollBanner .scrollImg ul li.QQ{ background: url(../images/public/bgB.png) no-repeat; margin-right: 17px;}
+#scrollBanner .scrollImg ul li.Sm{background: url(../images/public/bgB.png) no-repeat -49px;}

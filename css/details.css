@@ -1,0 +1,104 @@
+#details{width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+
+#details .de-1{width: 100%; margin-right: 110px;}
+#details .de-1l{float: left; height: 622px;}
+#details .de-1lt{width: 520px; height: 520px; overflow: hidden; margin-bottom: 10px;}
+#details .de-1lt img{width: 100%; height: 100%;}
+#details .de-1lb{}
+#details .de-1lb ul{width: 100%;}
+#details .de-1lb ul li{float: left; position: relative; width: 90px; height: 90px; margin-right: 20px; }
+#details .de-1lb ul li.liAction{border: 2px solid #666666;}
+#details .de-1lb ul li.liLast{margin-right: 0;}
+#details .de-1lb ul li img,
+#details .de-1lb ul li .imgW{position: absolute;  left:0; top:0; width: 100%; height: 100%; cursor: pointer;}
+#details .de-1lb ul li .imgW{z-index: 5; background-color:#FFFFFF; opacity: 0.5; filter: alpha(opacity=50);} 
+
+#details .de-1r{float: right; width: 500px; height: 622px; margin-right: 70px; }
+#details .de-1r .de1rimg{display: block; height: 103px; margin-top: 40px;}
+#details .de-1r p{width: 100%; height: 16px; font-size: 14px; color: #646464; margin: 20px 0 40px;} 
+#details .de-1r .de-1rc{width: 100%;}
+#details .de-1r .de-1rc .h5W{float: left; display: inline-block; width: 80px;}
+#details .de-1r .de-1rc h5,
+#details .de-1r .de-1rt ul li h5{font-size: 14px; color: #323232;}
+#details .de-1r .de-1rc ul{float:left; display: inline-block; width: 360px;}
+#details .de-1r .de-1rc ul li{float: left; width: 40px; height: 40px; margin-right: 18px; margin-bottom: 12px;}
+#details .de-1r ul li.liAction img{border: 2px solid #ed5561;}
+#details .de-1r .de-1rc ul .liL{margin-right: 0;}
+#details .de-1r .de-1rc ul li img{width: 100%; height: 100%; cursor: pointer;}
+
+#details .de-1r .de-1rt{width: 100%; margin: 30px 0; }
+#details .de-1r .de-1rt ul{}
+#details .de-1r .de-1rt ul li{float: left; }
+#details .de-1r .de-1rt ul li.de-li1{height: 34px; width: 180px; margin-right: 50px;}
+#details .de-1r .de-1rt ul li.de-li1 h5{float: left; display: inline-block; width: 80px; height: 34px; line-height: 34px;}
+#details .de-1r .de-1rt ul li .de1-div{float: left; position: relative; height: 34px; width:64px;}
+#details .de-1r .de-1rt ul li .de1-div .inpW{position: absolute; left: 0; top: 0; width: 44px; height: 32px; margin-right: 4px;}
+#details .de-1r .de-1rt ul li .de1-div .num{width: 42px; height: 32px; +height: 30px; border: 1px solid #a7a6ac;}
+#details .de-1r .de-1rt ul li .de1-div .spanW{position: absolute; left: 46px; top: 0; display: inline-block; width: 16px; height: 34px; +height: 32px; margin-right: 4px; +padding-top: 1px; }
+#details .de-1r .de-1rt ul li .de1-div .spanW span{display: inline-block; width: 16px; height: 13px; border: 1px solid  #a7a6ac; cursor:pointer;}
+#details .de-1r .de-1rt ul li .de1-div .spanW .add{position: absolute; top: 0; +top: 1px;background: url(../images/details/de20.jpg) no-repeat;}
+#details .de-1r .de-1rt ul li .de1-div .spanW .subtract{position: absolute; bottom: 0; background: url(../images/details/de21.jpg) no-repeat;}
+#details .de-1r .de-1rt ul li.de-li1 span.de-j{float:right; display: inline-block; height: 34px; line-height: 34px;}
+#details .de-1r .de-1rt ul li.de-li2{}
+#details .de-1r .de-1rt ul li.de-li2 h5,
+#details .de-1r .de-1rt ul li.de-li2 span{display: inline-block; float: left; height: 34px; line-height: 34px;}
+#details .de-1r .de-1rt ul li.de-li2 h5{margin-right: 4px;}
+#details .de-1r .de-1rt ul li.de-li2 span{ color: #646464; margin-right: 12px;}
+
+#details .result{width: 100%; margin-bottom: 30px;}
+#details .result span{font: bold 18px impact; color: #ed5561;}
+#details .result span em{ font-weight: bold; font-size: 30px;}
+
+#details .btnGr{width: 250px; height: 42px; margin: 0 auto 10px;}
+#details button{font: normal 18px "microsoft yahei"; width: 110px; height: 40px; line-height: 40px; text-align: center; border: 1px solid #ed5561; -webkt-border-radius:5px; -moz-border-radius: 5px; border-radius: 5px;}
+#details .btnGr .spC{background-color: #FFFFFF; color: #ed5561; margin-right: 16px;}
+#details .btnGr .buy{background-color:#ed5561; color: #FFFFFF;}
+
+#details .acc{position: relative; margin-left: 40px; width: 280px; height: 55px; background: url(../images/details/de22.jpg) no-repeat; display: none;}
+#details .acc .accW{position: absolute; left: 30px; top: 2px;}
+#details .acc span{display: inline-block; font-size: 14px; height: 55px; line-height: 55px; color: #000000;}
+#details .acc a{text-decoration: none; height: 56px; line-height: 55px; display: inline-block; widows: 104px; height: 30px; text-align: center; line-height: 30px; font-size: 18px; padding: 0 8px; color: #FFFFFF; background-color: #f4322d; margin-right: 20px;}
+#details .acc img{ height: 18px; width: 19px; cursor: pointer;}
+
+#details .fg{display: block;}
+#details .liLast{margin-right: 0px;}
+
+#details .de-2{width: 100%; height: 40px; background: url(../images/details/de25.jpg) no-repeat;}
+#details .de-2 p{width: 100%; height: 40px; line-height: 40px; text-align: center; font-size: 12px; color: #b4b4b4;}
+
+#details .de-3{width: 100%; height: 290px; border: 1px solid #e0e0e0; margin: 70px 0 80px;}
+#details .de-3 ul{float: left; width: 380px; overflow: hidden;}
+#details .de-3 ul li{height: 48px; margin: 0; padding: 0; +height: 44px;}
+#details .de-3 ul li h6,
+#details .de-3 ul li p{float: left; display: inline-block; font-size: 18px; color: #666666; line-height: 48px;+line-height: 44px;}
+#details .de-3 ul.ul-l{margin-left: 30px;}
+#details .de-3 ul.ul-c{}
+#details .de-3 ul.ul-f{margin-right: 30px;}
+
+#details .de-4{width: 100%;}
+#details .de-4 .de-xq{margin-bottom: 100px;}
+#details .de-4 .imgWrap,
+#details .de-4 .pWrap{float: left; width: 600px; hyphenate-limit-chars: 364px;}
+#details .de-4 .imgWrap  img{width: 571px; height: 364px;}
+#details .de-4 .pWrap h3,
+#details .de-4 .pWrap .pBg,
+#details .de-4 .pWrap em,
+#details .de-4 .pWrap span,
+#details .de-4 .pWrap p{display: block; width: 100%; text-align: center; line-height: 25px;}
+#details .de-4 .pWrap h3{margin-top: 10px; font: normal 24px "宋体"; color: #323232;}
+#details .de-4 .pWrap .pBg{height: 24px; background: url(../images/details/de24.png) no-repeat;}
+#details .de-4 .pWrap span{font-size: 18px; color: #646464; margin: 20px 0 40px;}
+#details .de-4 .pWrap em,
+#details .de-4 .pWrap p{font-size: 14px; color: #b4b4b4;}
+
+#details .de-5{width: 100%; margin-bottom: 100px;}
+#details .de-5 .dW{float: left; width: 590px; height: 290px; background-color: #f0f0f0;}
+#details .de-5 .div-l{ margin-right: 20px;}
+#details .de-5 .dW span,
+#details .de-5 .dW h4,
+#details .de-5 .dW p,
+#details .de-5 .dW a{display: block; width: 100%; text-align: center; line-height: 30px;}
+#details .de-5 .dW span{font-size: 16px; color: #323232; margin-top: 50px;}
+#details .de-5 .dW h4{font-size: 26px; color: #323232;}
+#details .de-5 .dW p{font-size: 18px; color: #646464; margin: 20px 0;}
+#details .de-5 .dW a{font-size: 14px; color: #808080;}

@@ -1,0 +1,98 @@
+/*我的信息 与 我的纪念日*/
+#myIn,#day{width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+.pb-1{width: 1200px; height: 40px; background-color: #f5f5f5; margin: 30px auto;}
+.pb-1 ul{margin-left: 80px;}
+.pb-1 ul li{float: left;}
+.pb-1 ul li a{text-decoration: none; display: inline-block; width: 128px; text-align: center; height: 40px; line-height: 40px; font-size: 16px; color: #323232;}
+.pb-1 ul li.liAction a{background-color: #5f5f5f; color: #FFFFFF;}
+
+.r-2{width: 100%;}
+.r-2 ul.ul-1{width: 1000px; height: 32px; background-color:#f5f5f5; margin: 0 auto 40px;}
+.r-2 ul.ul-1 li{float: left;}
+.r-2 ul.ul-1 li a{font-size: 14px; color: #808080; height: 32px; line-height: 32px; padding: 0 24px;}
+.r-2 ul.ul-1 li.lAc a{color: #323232; text-decoration: underline;}
+
+
+.r-2 .wrap,.w-2{width: 1000px; margin: 0 auto;}
+.r-2 .wrap .w-1{float: left;}
+
+.lo_2,.btnG{width: 100%; margin:0 30px;}
+.divLast{margin-right: 0;}
+.lo_2 .field{position: relative; width: 100%;height: 50px;}
+.lo_2 .nameBg{width: 328px;}
+.lo_2 .field strong,.btnG strong{display: inline-block; font-size: 16px; color: #323232; width: 130px; text-align: right;}
+.lo_2 .field i{position:absolute; top:0; right:0; display: inline-block;width: 38px; height: 38px;}
+.lo_2 .field span{position:absolute; left:42px; display: inline-block;line-height: 40px; font-family: "微软雅黑";font-size: 12px;color: #b4b4b4; text-indent: 90px;}
+.lo_2 .loName i{background: url(../images/personal/fn1.png) no-repeat;}
+.lo_2 .loPassw i{background: url(../images/personal/fn2.png) no-repeat;}
+.lo_2 .loA i{background: url(../images/personal/fn3.png) no-repeat;}
+.lo_2 .field .loText{width: 178px;height: 28px;line-height:28px;border: 1px solid #323232; text-indent: 10px;}
+.lo_2 .field .loSele{height: 28px;line-height:28px;}
+.lo_2 p{float:right; font-family: "微软雅黑";font-size: 14px;color: #323232;}
+.btnG textarea{border: 1px solid #323232; overflow: hidden;}
+#lo_3{width: 100%;height: 40px; margin: 20px 0 50px 90px;}
+#lo_3 .lobtn{display:inline-block;width: 140px;height: 40px;background-color: #323232;border:1px solid #323232;color: #FFFFFF;font-family: "微软雅黑";font-size: 18px;margin: 0 74px;}
+
+/*申请退款*/
+#refund{width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+
+#refund .re-2{width: 1000px; margin: 0 auto 110px;}
+#refund .re-2 .tabWr,#refund .re-2 .tabWr table{width: 100%;}
+#refund .re-2 .tabWr table thead{width: 100%; height: 30px; background-color: #f5f5f5;}
+#refund .re-2 .tabWr table thead th{text-align: left; text-indent: 30px; line-height: 30px;}
+#refund .re-2 .tabWr table thead th span{color: #323232; font-size: 14px;}
+#refund .re-2 .tabWr table tbody tr{height: 130px; border-bottom: 1px solid #d6d7dc;}
+#refund .re-2 .tabWr table tbody tr td .black-text{display: block; color: #323232; font-size: 14px; text-indent: 10px;}
+#refund .re-2 table tbody .item-info img{float: left; width: 97px; height: 89px; margin-right: 18px;}
+#refund .re-2 table tbody .item-info .aWr{float: left; position: relative; height: 89px;}
+#refund .re-2 table tbody .item-info .aWr a{color: #323232; font-size: 14px; display: block; width: 250px;}
+#refund .re-2 table tbody .item-info .aWr span{position: absolute; right: 0; bottom: 0; color: #323232; font-size: 14px; display: block;}
+#refund .re-2 table tbody .item-info .aWr span em{}
+
+#refund .re-2 .tabBtn{position: relative; width: 100%;height: 40px; margin: 70px auto 0;}
+#refund .re-2 .tabBtn button{position: absolute; right: 90px; display:inline-block;width: 140px;height: 40px;background-color: #5f5f5f;border:1px solid #5f5f5f;color: #FFFFFF;font-family: "微软雅黑";font-size: 18px;}
+
+/*退换列表 和 我的订单*/
+#personal{width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+#personal .re-2{width: 1140px; margin: 0 auto 110px;}
+#personal .re-2 .tabWr,#refund .re-2 .tabWr table{width: 1140px; margin: 0 auto;}
+#personal .re-2 .tabWr table thead{width: 100%; height: 30px; background-color: #f5f5f5;}
+#personal .re-2 .tabWr table thead th{text-align: center; line-height: 30px;}
+#personal .re-2 .tabWr table thead th .checkAllT{vertical-align:middle; margin-left: 34px;}
+#personal .re-2 .tabWr table thead th span{color: #323232; font-size: 14px;}
+#personal .re-2 .tabWr table tbody tr{height: 130px; border-bottom: 1px solid #d6d7dc;}
+#personal .re-2 .tabWr table tbody tr td{text-align: center;}
+#personal .re-2 .tabWr table tbody tr td .tdBtn{width: 100px; height: 20px; color: #FFFFFF; background-color: #323232; border: 1px solid #323232; text-align: center; line-height: 20px; font-size: 12px;}
+#personal .re-2 table tbody tr td span,#personal .re-2 table tbody tr td a{color: #323232; font-size: 14px;}
+#personal .re-2 table tbody tr td a:hover{color: #000000;}
+#personal .re-2 .tabWr table tbody tr td .name{width: 100%;}
+#personal .re-2 table tbody .name img{float: left; width: 60; height: 86px; margin-right: 18px;}
+#personal .re-2 table tbody .name p{float: left; height: 66px; width: 300px; padding-top: 20px; text-align: left;}
+#personal .re-2 table tbody .exchange:hover{color: #1e2eff;}
+#personal .checkAllB{margin-left: 35px;}
+
+
+#personal .btnG{width: 1140px; margin: 20px auto; padding-right:32px;}
+#personal .hbBtn{width: 94px; height: 24px; font-size: 14px; text-align: center; line-height: 24px; border: 1px solid #d6d7dc; color: #d6d7dc; margin-left: 24px; background-color: #FFFFFF;}
+#personal .hbAc{border: 1px solid #323232; color: #323232; background-color: #d6d7dc;} 
+#personal .btnG-y{float: right; color: #323232;} 
+
+
+/*收货地址管理 与 添加收货地址*/
+#delivery{width: 1200px; margin: 0 auto; font-family: "microsoft yahei";}
+.de-2{width: 100%;}
+.de-2 .div-1{width: 1000px; height: 32px; background-color:#f5f5f5; margin: 0 auto 40px;}
+.de-2 .div-1 p{font-size: 14px; color: #808080; height: 32px; line-height: 32px; padding: 0 24px;}
+
+.adddr{width: 1000px; height: 100px; border: 1px dashed #999999; margin: 40px auto; background-color: #fafafa;}
+.adddr a{display: block; width: 100%; height: 100px; text-align: center; line-height: 100px; font-size: 14px; color: b4b4b4; text-decoration:none; background: url(../images/personal/de01.png) no-repeat 450px 44px;}
+.adddr a:hover{background-color: #f5f5f5;}
+
+.addWr{display: none;}
+.deWrap{width: 1000px; margin: 0 auto;}
+.de_3 .field{width: 100%;height: 50px;}
+.de_3 .field strong{display: inline-block; font-size: 16px; color: #808080; width: 130px; text-align: right;}
+.de_3 .field strong em{color: red; margin-right: 6px;}
+.de_3 .field .loText{width: 178px;height: 24px;line-height:2px;border: 1px solid #808080; text-indent: 10px;}
+.de_3 .field .loSele{height: 28px;line-height:24px;}
+.de_3 .field .loW{width: 500px;}

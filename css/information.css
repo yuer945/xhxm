@@ -1,0 +1,37 @@
+#information{width: 1200px; margin: 0 auto; font-family: "microsoft yahei"; }
+#information .imgScroll{position: relative; width: 100%; height: 512px; margin: 100px auto; }
+#information .imgScroll .imgWrap{position: absolute; left: 0; top: 0; width: 926px; height: 100%;}
+#information .imgScroll .imgWrap .imgUl{width: 100%; height: 100%;}
+#information .imgScroll .imgWrap .imgUl li{position:absolute; display: block; z-index:0; width: 289px; height: 180px;}
+#information .imgScroll .imgWrap .imgUl li.li1{z-index: 6; top: 0px; left: 205px; width: 720px; height: 512px;}
+#information .imgScroll .imgWrap .imgUl li.li2{z-index: 5; top: 150px; left: 105px;}
+#information .imgScroll .imgWrap .imgUl li.li3{z-index: 4; top: 200px; left: 85px;}
+#information .imgScroll .imgWrap .imgUl li.li4{z-index: 3; top: 250px; left: 65px;}
+#information .imgScroll .imgWrap .imgUl li.li5{z-index: 2; top: 300px; left: 45px; display: block;}
+#information .imgScroll .imgWrap .imgUl li a{display: block; width: 100%; height: 100%;}
+#information .imgScroll .imgWrap .imgUl li a img{width: 100%; height: 100%;}
+#information .imgScroll .imgWrap .btnC{position: absolute; left: 135px; top: 200px; width: 138px; height: 68px; z-index: 99; overflow: hidden;}
+#information .imgScroll .imgWrap .prevWrap,
+#information .imgScroll .imgWrap .nextWrap{ position: relative; float: left; display: block; width: 68px; height: 68px; float: left; z-index:100; cursor:pointer;}
+#information .imgScroll .imgWrap .prevWrap{margin-right: 2px;}
+#information .imgScroll .imgWrap .prevBg,
+#information .imgScroll .imgWrap .nextBg{width: 68px; height: 68px; z-index: 101;background-color: #000000; opacity: 0.5; filter: alpha(opacity=50);}
+#information .imgScroll .imgWrap .prevWrap .prev,
+#information .imgScroll .imgWrap .nextWrap .next{position: absolute; display: block; left: 0; top: 0; width: 68px; height: 68px; text-align: center; text-decoration: none; font: bold 30px "宋体"; z-index: 102; line-height: 70px; color: #FFFFFF;}
+#information .imgScroll .imgWrap .aActc{opacity: 0.7; filter: alpha(opacity=70);}
+
+
+#information .pWrap{position: absolute; right: 0; top: 80px; width: 374px; height: 384px; overflow: hidden; color: #FFFFFF; z-index: 500;}
+#information .pWrap .pWra{position:relative; width: 100%; height: 100%; overflow: hidden;}
+#information .pWrap .pWra .pWr{position: absolute; top: 0; left: 40px; width: 300px; height: 100%; z-index: 550;}
+#information .pWrap h2{width:100%; text-align:left; font-size: 28px; margin-top: 56px;}
+#information .pWrap P{width:100%; text-align:left; font-size: 16px; line-height: 27px; text-indent: 32px; margin: 28px 0 40px;}
+#information .pWrap span{display: block; width:100%; text-align:left; height: 44px; text-indent: 40px; line-height: 42px;}
+#information .pWrap span.ad{font-size: 16px; background: url(../images/information/inico.png) no-repeat 0 -4px;}
+#information .pWrap span.iph{font-size: 18px; background: url(../images/information/inico.png) no-repeat 0 -44px;}
+#information .pWrap .se{display: block; width: 100%; text-align: right; font-size: 18px; z-index: 1000; color: #FFFFFF; height: 42px; line-height: 42px; background: url(../images/information/inico2.png) no-repeat 178px;}
+#information .pWrap .pWrapBg{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #000000; opacity: 0.6; filter: alpha(opacity=60); z-index: 520;}
+
+.mapWrap{ width: 100%; height: 381px; background: url(../images/information/mapBg.jpg) repeat-x;}
+.mapWrap .mapB{width: 1200px; height: 381px; margin: 0 auto; background: url(../images/information/fBg.jpg) no-repeat; padding-top: 100px;}
+.mapWrap .map{width: 716px; height: 202px; margin: 0 auto;}

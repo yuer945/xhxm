@@ -1,0 +1,15 @@
+.idx-m1 {width:1200px;margin:40px auto 0;}
+.idx-m1 .idx-fl {float:left;}
+.idx-m1 .idx-rl {position:relative;float:right;}
+.idx-m1 .idx-rl .idx-gd {position:absolute;top:188px;right:0;}
+.idx-m1 .idx-rl .idx-gd a {display:block;padding:8px 20px;border:2px solid #f00;z-index:9999;}
+.idx-m1 .idx-rl .idx-gd a:hover {text-decoration:none;}
+.idx-m2 {margin:50px 0 20px;width:100%;height:673px;background:url(../images/index/idx-bj.jpg) repeat-x;}
+.idx-m2 .m2 {position:relative;margin:0px auto;width:1200px;}
+.idx-m2 .m2 .tit {position:absolute;margin:0 0;top:-24px;left:260px;width:736px;height:101px;background:url(../images/index/idx-tbj.png) no-repeat center center;font:normal 18px/87px "Microsoft YaHei";text-align:center;color:#fff;}
+.idx-m2 .m2 ul {padding:160px 0 0;}
+.idx-m2 .m2 li {float:left;margin:0 1px 0 0;}
+.idx-m3{margin-bottom: 70px;}
+.idx-m3 ul {width:1200px;margin:0 auto 20px;}
+.idx-m3 li {float:left;width:140px;margin:0 40px 0 100px;text-align:center;}
+.idx-m3 li a:hover {text-decoration:none;}
